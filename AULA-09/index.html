@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AULA-09</title>
+</head>
+
+<body>
+    <h2 style="text-align: center;">Formulários</h2>
+    <table border="1">
+        <thead>
+        </thead>
+        <tbody>
+            <tr>
+                <td><label for="">Nome:</label></td>
+                <td><input type="text" name="nome" id="nome" placeholder="Digite seu nome"></td>
+            </tr>
+            <tr>
+                <td><label for="">E-mail pessoal:</label></td>
+                <td><input type="email" name="email" id="email"></td>
+            </tr>
+            <tr>
+                <td><label for="">E-mail (patter):</label></td>
+                <td><input type="email" name="email02" id="email02" placeholder="Digite seu e-mail com @"></td>
+            </tr>
+            <tr>
+                <td><label for="">Senha:</label></td>
+                <td><input type="password" name="senha" id="senha"></td>
+            </tr>
+            <tr>
+                <td><label for="">Idade:</label></td>
+                <td><input type="text" name="idade" id="idade"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><label for="">Deixe seu comentário:</label><br>
+                    <textarea id="comentário" name="comentário" rows="6" cols="42" required></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="">Matéria de Interesse:</label><br>
+                    <input type="checkbox" name="backend" value="backend">Backend<br>
+                    <input type="checkbox" name="frontend" value="frontend">Frontend<br>
+                    <input type="checkbox" name="fullstack" value="fullstack">Fullstack<br>
+                </td>
+                <td><label for="">Tipo de Viagem:</label><br>
+                    <input type="radio" name="viagem" value="negocios">Negócios<br>
+                    <input type="radio" name="viagem" value="lazer">Lazer<br>
+                    <input type="radio" name="viagem" value="turismo">Turismo<br>
+                    <input type="radio" name="viagem" value="academico">Acadêmico<br>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="">Esporte Favorito:</label>
+                    <select name="esporte" size="4">
+                        <option value="futebol">Futebol</option>
+                        <option value="basquete">Basquete</option>
+                        <option value="volei">Vôlei</option>
+                        <option value="tenis">Tênis</option>
+                        <option value="mma">MMA</option>
+                        <option value="natação">Natação</option>
+
+                    </select>
+                </td>
+                <td><label for="">Investimentos:</label>
+                    <select name="pais" size="1">
+                        <option value="">Selecione</option>
+                        <option value="poupança">Poupança</option>
+                        <option value="cdb">CDB</option>
+                        <option value="tesouro">Tesouro Direto</option>
+                        <option value="fundos">Fundos Imobiliários</option>
+                        <option value="cdi">CDI</option>
+                        <option value="debentures">DEBÊNTURES</option>
+                        <option value="cripto">Criptomoedas</option>
+                        <option value="ações">Ações</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Escolha uma cor:</label>
+                    <input type="color" name="cor" id="cor">
+                </td>
+                <td>
+                    <label for="">Selecione um arquivo:</label>
+                    <input type="file" name="arquivo" id="arquivo">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <label for="">Data e Horário de Envio:</label>
+                    <input type="datetime-local" name="datahora" id="datahora">
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td><input type="submit" value="Enviar"></td>
+                <td><input type="reset" value="Limpar"></td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+
+</html>
