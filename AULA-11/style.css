@@ -1,0 +1,29 @@
+body {
+    background-image: linear-gradient(to right, #0388A6, #8DE0F2, #06BFBF);
+    padding: 30px;
+    width: 800px;
+    margin: auto;
+    background-color: white;
+}
+
+.caixa {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    padding: 5%;
+    background-color: white;
+    border-radius: 100px;
+    box-shadow: 30px 30px 60px 0px black;
+}
+
+h1 {
+    color: #003669;
+    text-align: center;
+    text-shadow: 10px 5px 10px#003669;
+}
+
+h2 {
+    color: #056c83;
+}
