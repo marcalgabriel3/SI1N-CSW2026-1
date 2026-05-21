@@ -1,0 +1,52 @@
+ body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        background-color: rgb(72, 215, 199);
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 50px;
+    }
+
+    .box {
+        width: 40%;
+        padding: 20px;
+        border: 2px solid #fff8f8;
+        border-radius: 10px;
+    }
+
+    /* Links */
+    a {
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        display: block;
+        margin: 10px;
+    }
+
+    /* h2 Hover (passar o mouse) */
+    a:hover {
+        color: blue
+    }
+
+    /* Active (clicando) */
+    a:active {
+        color: red;
+    }
+
+    /* Before e After */
+    a::before {
+        content: "✳ ";
+    }
+
+    a::after {
+        content: " ✳";
+    }
+
+h2 {
+    color: aliceblue;
+}
+
+h4{color: aliceblue;}
