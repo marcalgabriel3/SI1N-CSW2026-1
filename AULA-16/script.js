@@ -22,3 +22,9 @@ function exibeNomeAluno() {
 
     document.getElementById("resposta").innerHTML = "O nome digitado foi: " + inputAluno;
 }
+
+function apagaNomeAluno() {
+    document.getElementById("inputNomeAluno").value = "";
+
+    document.getElementById("resposta").innerHTML = "";
+}

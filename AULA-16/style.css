@@ -1,0 +1,11 @@
+.caixapergunta{
+    border-style: solid;
+    width:500px; 
+    height: 200px;
+}
+
+.caixaresposta{
+    border-style: solid;
+    width:500px;
+    height: 200px;
+}
