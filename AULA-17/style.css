@@ -1,0 +1,52 @@
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.folha{
+display: flex;
+justify-content: center;
+flex-direction: column;
+flex-wrap: nowrap;
+background-color: white;
+text-align: center;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 0 5px rgba(0, 0, 0, 0.404);
+}
+
+.fundo_div{
+display: flex;
+justify-content: center;
+text-align: center;
+align-items: center;
+color: white;
+width: 500px;
+height: 100px;
+padding: 10px;
+background-color: rgb(17, 75, 161);
+}
+
+#imagem{
+background-image: url('./img/thinking-baby.gif');
+background-size: cover;
+background-position: center;
+flex-direction: column;
+text-align: center;
+width: 500px;
+height: 100px;
+}
+
+.calidade{
+
+}
+
+.calculadora{
+
+}
+
+.calcular{
+    
+}
